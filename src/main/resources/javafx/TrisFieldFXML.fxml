@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.menghini.davide.JTris.View.TrisFieldController">
+   <children>
+      <Label fx:id="roundlabel" layoutX="489.0" layoutY="50.0" prefHeight="18.0" prefWidth="134.0" />
+      <Label layoutX="494.0" layoutY="24.0" prefHeight="18.0" prefWidth="144.0" text="Tocca al giocatore:" />
+      <Rectangle fx:id="cell0_0" arcHeight="5.0" arcWidth="5.0" fill="green" height="88.0" layoutX="72.0" layoutY="59.0" onMouseClicked="#cell0_0Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell0_1" arcHeight="5.0" arcWidth="5.0" fill="green" height="88.0" layoutX="172.0" layoutY="59.0" onMouseClicked="#cell0_1Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell0_2" arcHeight="5.0" arcWidth="5.0" fill="green" height="88.0" layoutX="272.0" layoutY="59.0" onMouseClicked="#cell0_2Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell1_0" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="72.0" layoutY="147.0" onMouseClicked="#cell1_0Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell1_1" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="172.0" layoutY="147.0" onMouseClicked="#cell1_1Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell1_2" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="272.0" layoutY="147.0" onMouseClicked="#cell1_2Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell2_0" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="72.0" layoutY="249.0" onMouseClicked="#cell2_0Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell2_1" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="172.0" layoutY="249.0" onMouseClicked="#cell2_1Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="cell2_2" arcHeight="5.0" arcWidth="5.0" fill="green" height="102.0" layoutX="272.0" layoutY="249.0" onMouseClicked="#cell2_2Click" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+   </children>
+</AnchorPane>
